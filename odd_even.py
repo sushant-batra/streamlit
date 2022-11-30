@@ -8,7 +8,6 @@ if(st.button('Submit')):
         if (result==1):
             st.title("Number is odd")
         else:
-            st.title("Number is even")
-            st.success(result)
+            st.title("Number is even")           
     else:
         st.title("Enter a valid number")
